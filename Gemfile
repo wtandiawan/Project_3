@@ -28,6 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'devise'
+gem 'haml'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
