@@ -1,0 +1,8 @@
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .navbar-inner
+    .container
+      = link_to 'gradioactive', root_path, id: 'logo'
+      %nav
+        %ul.nav.pull-right
+          = render 'devise/menu/registration_items'
+          = render 'devise/menu/login_items'
