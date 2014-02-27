@@ -33,10 +33,13 @@ gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'factory_girl_rails'
 end
 
 group :test do
   gem 'shoulda-matchers'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :doc do
