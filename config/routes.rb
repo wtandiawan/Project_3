@@ -1,4 +1,5 @@
 Gradioactive::Application.routes.draw do
+  get "courses/index"
   get "welcome/index"
   devise_for :users
 
